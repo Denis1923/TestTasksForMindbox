@@ -54,6 +54,6 @@ namespace MathCalculationsConsoleApp.Models
 
 		private double GetPerimeter() => (_a + _b + _c) / 2;
 
-		private bool IsRectangular() => Math.Pow(_a, 2) + Math.Pow(_b, 2) == Math.Pow(_c, 2);
+		public bool IsRectangular() => Math.Pow(_a, 2) + Math.Pow(_b, 2) == Math.Pow(_c, 2);
 	}
 }
